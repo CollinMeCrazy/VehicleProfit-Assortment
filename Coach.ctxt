@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Coach
+comment0.text=\r\n\ Class\ Coach\ used\ as\ subclass\ of\ Class\ Vehicle\ \r\n\r\n\ @author\ Collins\ Ramsey\r\n\ @version\ 11/9/2022\ @\ 5\:43\ pm\r\n
+comment1.params=
+comment1.target=Coach()
+comment1.text=\r\n\ Standard\ Constructor\ for\ objects\ of\ class\ Coach\r\n
+comment2.params=destination\ weight\ income
+comment2.target=Coach(java.lang.String,\ double,\ double)
+comment2.text=\r\n\ 2nd\ Constructor\ for\ objects\ of\ class\ Coach,\ does\ some\ math\ with\ weight\ and\ calculates\ crew\ members\ and\ horses\r\n\ \r\n\ @param\ String\r\n\ @param\ double\r\n
+comment3.params=
+comment3.target=int\ getCrew()
+comment3.text=\r\n\ Method\ getCrew\ returns\ this.crew\ as\ an\ int\r\n\r\n\ @param\ \ none\r\n\ @return\ int\r\n
+comment4.params=
+comment4.target=int\ getHorses()
+comment4.text=\r\n\ Method\ getHorses\ returns\ this.horses\ as\ an\ int\r\n\r\n\ @param\ \ none\r\n\ @return\ int\r\n
+comment5.params=
+comment5.target=double\ calculateVehicleProfit()
+comment5.text=\r\n\ Method\ calculateVehicleProfit\ overrides\ abstract\ version\ in\ Class\ Vehicle\ and\ is\ specific\r\n\ to\ this\ subclass\ \r\n\r\n\ @param\ \ none\r\n\ @return\ double\r\n
+comment6.params=
+comment6.target=void\ addToTotalProfit()
+comment6.text=\r\n\ Method\ addToTotalProfit\ calls\ on\ calculateVehicleProfit\ in\ this\ subclass\ and\ then\ calls\ on\ the\ Class\ Vehicle\r\n\ method\ setRevenue\ to\ add\ to\ the\ total\ profit\r\n\r\n\ @param\ \ none\r\n\ @return\ nothing\r\n
+numComments=7

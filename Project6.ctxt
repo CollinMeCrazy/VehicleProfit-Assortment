@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.target=Project6
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=in
+comment2.target=java.util.ArrayList\ readData(java.util.Scanner)
+comment2.text=\r\n\ Method\ readData\ scans\ and\ reads\ incoming\ text\ files\ specifically\ formatted,\ creates\ objects,\ and\ places\ those\r\n\ objects\ into\ an\ unsorted\ ArrayList\ of\ type\ Vehicle.\ Also\ adds\ their\ profits\ to\ the\ total\ profit\ based\ on\ type\ of\ \r\n\ vehicle\r\n\r\n\ @param\ \ Scanner\r\n\ @return\ ArrayList\r\n
+comment3.params=unsorted
+comment3.target=java.util.ArrayList\ sortVehicles(java.util.ArrayList)
+comment3.text=\r\n\ Method\ sortVehicles\ takes\ existing\ unsorted\ ArrayList\ and\ places\ the\ list\ into\ sorted\ ArrayList\ in\ a\ specified\ order\r\n\ for\ location\ and\ type\ of\ vehicles.\ Temporarily\ creates\ an\ ArrayList\ for\ every\ location,\ deals\ with\ lots\ of\ logic\r\n\ (future\ reference;\ don't\ use\ enhanced\ loops,\ unless\ for\ very\ simple\ use)\r\n\r\n\ @param\ \ ArrayList\r\n\ @return\ ArrayList\r\n
+comment4.params=v
+comment4.target=void\ printVehicles(java.util.ArrayList)
+comment4.text=\r\n\ Method\ printVehicles\ takes\ a\ sorted\ or\ unsorted\ ArrayList\ and\ prints\ it's\ contents\ \r\n\r\n\ @param\ \ ArrayList\r\n\ @return\ nothing\r\n
+numComments=5

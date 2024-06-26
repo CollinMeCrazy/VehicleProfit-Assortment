@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Train
+comment0.text=\r\n\ Class\ Train\ used\ as\ subclass\ of\ Class\ Vehicle\ \r\n\r\n\ @author\ Collins\ Ramsey\r\n\ @version\ 11/9/2022\ @\ 5\:43\ pm\r\n
+comment1.params=
+comment1.target=Train()
+comment1.text=\r\n\ Standard\ Constructor\ for\ objects\ of\ class\ Train\r\n
+comment2.params=destination\ cars\ income
+comment2.target=Train(java.lang.String,\ int,\ double)
+comment2.text=\r\n\ 2nd\ Constructor\ for\ objects\ of\ class\ Train\r\n\ \r\n\ @param\ String\r\n\ @param\ int\r\n\ @param\ double\r\n
+comment3.params=
+comment3.target=int\ getCars()
+comment3.text=\r\n\ Method\ getCars\ returns\ this.cars\ as\ an\ int\r\n\r\n\ @param\ \ none\r\n\ @return\ int\r\n
+comment4.params=
+comment4.target=double\ calculateVehicleProfit()
+comment4.text=\r\n\ Method\ calculateVehicleProfit\ overrides\ abstract\ version\ in\ Class\ Vehicle\ and\ is\ specific\r\n\ to\ this\ subclass\ \r\n\r\n\ @param\ \ none\r\n\ @return\ double\r\n
+comment5.params=
+comment5.target=void\ addToTotalProfit()
+comment5.text=\r\n\ Method\ addToTotalProfit\ calls\ on\ calculateVehicleProfit\ in\ this\ subclass\ and\ then\ calls\ on\ the\ Class\ Vehicle\r\n\ method\ setRevenue\ to\ add\ to\ the\ total\ profit\r\n\r\n\ @param\ \ none\r\n\ @return\ nothing\r\n
+numComments=6
